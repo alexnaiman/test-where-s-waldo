@@ -9,4 +9,4 @@ jobs:
         id: waldo
         uses: alexnaiman/where-s-waldo-action@v1
         with:
-          github-token: ${{ secrets.ACCESS_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
