@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Where's Waldo?
         id: waldo
-        uses: alexnaiman/where-s-waldo-action@v1
+        uses: alexnaiman/where-s-waldo-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
