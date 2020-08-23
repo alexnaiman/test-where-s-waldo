@@ -1,15 +1,15 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  where_s_waldo_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to test "Where's Waldo "
     steps:
       - name: Hello world action step
         id: hello
         uses: alexnaiman/where-s-waldo-action@v1
         with:
-          milliseconds: "Mona the Octocat"
+          github-token: ${{ secrets.ACCESS_TOKEN }}
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
