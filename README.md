@@ -1,1 +1,1 @@
-Test Repo for [Where's Waldo Action](https://github.com/alexnaiman/where-s-waldo-action)
+# Test Repo for [Where's Waldo Action](https://github.com/alexnaiman/where-s-waldo-action)
